@@ -1,0 +1,16 @@
+
+.best__title-wrapper{
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include mobile {
+    margin-bottom: 8px;
+  }
+}
+.best__link{
+  @include mobile {
+    display: none;
+  }
+}
